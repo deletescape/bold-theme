@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Rubik|Bitter");
+@import url("https://fonts.googleapis.com/css?family=Muli:300i,400");
 @import "flexboxgrid";
 @import "colors";
 @import "typography";
@@ -30,9 +30,10 @@
   }
 }
 
-@keyframes "blink" {
-  from, to { color: transparent; }
-  50% { color: $black; }
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
 
 nav {
